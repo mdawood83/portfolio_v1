@@ -261,9 +261,9 @@ h6 {
   border: 0;
   background: none;
   font-size: 22px;
-  transition: all 0.4s;
+  transition: all 0.5s;
   outline: none !important;
-  line-height: 1;
+  line-height: 0;
   cursor: pointer;
   text-align: right;
 }
