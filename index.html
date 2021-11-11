@@ -2,65 +2,68 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Mina Dawood personal Portfolio" />
+  <meta name="keywords" content="programming, web development, web design, software development, mobile applications development" />
 
-  <title>Mina Dawood</title>
-  <meta content="portfolio" name="description">
-  <meta content="portfolio, projects, resume" name="keywords">
+  <title>Mina Dawood | Portfolio</title>
 
-  <!-- Icons -->
   <link href="assets/img/logo.jpg" rel="icon">
 
-  <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
-  <!-- Bootstrap & Libs -->
+  <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
   <link href="libs/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="libs/icofont/icofont.min.css" rel="stylesheet">
-  <link href="libs/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/icofont/icofont.min.css" rel="stylesheet">
+  <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
   <link href="libs/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
-  <link href="libs/remixicon/remixicon.css" rel="stylesheet">
-  <link href="libs/venobox/venobox.css" rel="stylesheet">
-  <link href="libs/aos/aos.css" rel="stylesheet">
+  <link href="/node_modules/venobox/venobox/venobox.css" rel="stylesheet" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
 
-  <!-- CSS -->
   <link href="css/style.css" rel="stylesheet">
 
 </head>
 
 <body>
-  <!-- ======= Header ======= -->
+  <!-- Header -->
   <header id="header" class="fixed-top d-flex align-items-center">
     <div class="container d-flex align-items-center justify-content-between">
-      
           <h1 class="logo"><a class="scrollto" href="#header">Mina <span>Dawood</span></a></h1>
-
-          <!-- Nav-menu -->
+          <!-- Navbar -->
           <nav class="nav-menu d-none d-lg-block">
             <ul>
               <li class="active"><a href="#header">Home</a></li>
               <li><a href="#about">About</a></li>
+              <li><a href="#skills">Skills</a></li>
               <li><a href="#projects">Projects</a></li>
-              <!-- <li><a href="blog.html">Blog</a></li> -->
               <li><a href="#contact">Contact</a></li>
             </ul>
-          </nav><!-- END Nav-menu -->
-
+          </nav>
     </div>
   </header>
-  <!-- End Header -->
-
-  <!-- ======= landing Section ======= -->
+<!-- Landing page -->
   <section id="landing" class="d-flex align-items-center">
-
     <div class="container-fluid" data-aos="zoom-out" data-aos-delay="100">
       <div class="row justify-content-center">
         <div class="col-xl-10">
           <div class="row">
-            <div class="col-xl-5">
-              <h1>Hello, I'm <span>Mina Dawood</span></h1>
+            <div class="col-xl-5.5">
+              <h1>Hello, I'm <span class="typed-text"></span><span class="cursor">&nbsp;</span></h1>
               <h2>I have a great passion in Web Design / Development using different technologies.</h2>
               <a href="#about" class="btn-about scrollto">More About Me</a>
             </div>
@@ -68,13 +71,10 @@
         </div>
       </div>
     </div>
-
   </section>
-  <!-- End landing -->
 
   <main id="main">
-
-    <!-- ======= technologies Section ======= -->
+    <!-- Technologies -->
     <section id="technologies" class="technologies">
       <div class="section-title">
         <h2>Technologies</h2>
@@ -102,12 +102,9 @@
         </div>
       </div>
     </section>
-    <!-- End technologies Section -->
-
-    <!-- ======= About Section ======= -->
-    <section id="about" class="about section-bg">
+    <!-- OLD About -->
+    <!-- <section id="about" class="about section-bg">
       <div class="container" data-aos="fade-up">
-
         <div class="row no-gutters">
           <div class="content col-xl-5 d-flex align-items-stretch">
             <div class="content">
@@ -123,160 +120,193 @@
             <div class="icon-boxes d-flex flex-column justify-content-center">
               <div class="row">
                 <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
-                  <!-- <i class="bx bx-mobile-vibration"></i> -->
                   <i class="icofont-responsive"></i>
-                  <!-- <span class="iconify" data-icon="mdi:cellphone-link" data-inline="false"></span> -->
                   <h4>Responsive</h4>
                   <p>All layouts will work and accommodate on any device.</p>
                 </div>
                 <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
-                  <!-- <i class="bx bx-run"></i> -->
                   <i class="icofont-runner-alt-1"></i>
                   <h4>Fast</h4>
                   <p>Fast load times and lag free interaction.</p>
                 </div>
                 <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
-                  <!-- <i class="bx bx-rocket"></i> -->
                   <i class="icofont-rocket"></i>
                   <h4>Dynamic</h4>
                   <p>Websites don't have to be static, I love making pages come to life.</p>
                 </div>
                 <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
-                  <!-- <i class="bx bx-support"></i> -->
                   <i class="icofont-support"></i>
                   <h4>Support</h4>
                   <p>Provide a full support at anytime.</p>
                 </div>
               </div>
-            </div><!-- End .content-->
+            </div>
           </div>
         </div>
-
       </div>
+    </section> -->
+    <!-- NEW About -->
+    <section id="about" class="about bg-dark-pattern">
+      <div class="container">
+        <div class="section-title" data-aos="fade-up" data-aos-delay="100">
+          <h2>About me</h2>
+        </div>
+        <div class="about-grid content">
+          <img src="assets/img/0.jpg" alt="" data-aos="fade-up" data-aos-delay="200"/>
+          <div class="card" data-aos="fade-up" data-aos-delay="300">
+            <div class="card-body">
+              <p>
+                I am a software and web developer who has the passionate in developping/designing web apps, mobile apps. I am very well detail oriented, and hard working.
+              </p>
+              <p>
+                Using technologies: (Html5, Css3, JavaScript, NodeJs, Express, ReactJs, WordPress, Python-Django, PHP, Symphony framework, C++/C# .NET, ASP.NET MVC).
+              </p>
+              <a href="#contact" class="about-btn scrollto"><span>Contact me</span> <i class="bx bx-chevron-right"></i></a></div>
+            </div>
+          </div>
+        </div>
     </section>
-    <!-- End About Section -->
 
-    <!-- ======= Counts Section ======= -->
-    <section id="counts" class="counts">
-      <div class="container" data-aos="fade-up">
+    <section id="skills" class="skills">
+      <div class="container">
 
-        <div class="row">
+        <div class="section-title" data-aos="fade-up">
+          <h2>Skills</h2>
+          <p>I am a developer with robust problem-solving skills, very detail oriented, proficient in both back-end and front-end frameworks. My passion lies in learning about the latest technologies.</p>
+        </div>
 
-          <div class="col-lg-3 col-md-6">
-            <div class="count-box">
-              <i class="icofont-simple-smile"></i>
-              <span data-toggle="counter-up">3</span>
-              <p>Happy clients</p>
+        <div class="row skills-content">
+          <div class="col-lg-6" data-aos="fade-up">
+            <div class="progress">
+              <span class="skill">HTML <i class="val">95%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
             </div>
+
+            <div class="progress">
+              <span class="skill">CSS <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">JavaScript <i class="val">85%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">C# .Net <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
           </div>
 
-          <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
-            <div class="count-box">
-              <i class="icofont-document-folder"></i>
-              <span data-toggle="counter-up">5</span>
-              <p>Projects</p>
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="progress">
+              <span class="skill">PHP <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
             </div>
-          </div>
 
-          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
-            <div class="count-box">
-              <i class="icofont-live-support"></i>
-              <span data-toggle="counter-up">24</span>
-              <p>Hours Of Support</p>
+            <div class="progress">
+              <span class="skill">WordPress/CMS <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
             </div>
-          </div>
 
-          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
-            <div class="count-box">
-              <i class="icofont-users-alt-5"></i>
-              <span data-toggle="counter-up">1</span>
-              <p>Hard Worker</p>
+            <div class="progress">
+              <span class="skill">React / NodeJS <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
             </div>
+
+            <div class="progress">
+              <span class="skill">Django / Python <i class="val">70%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
           </div>
 
         </div>
-
       </div>
     </section>
-    <!-- End Counts Section -->
 
-    <!-- ======= projects Section ======= -->
-    <section id="projects" class="projects section-bg">
+    <!-- Projects -->
+    <section id="projects" class="projects bg-dark-pattern">
       <div class="container" data-aos="fade-up">
-
         <div class="section-title">
           <h2>projects</h2>
-          <p>Recent Projects: Samples of some of my work from the past year.</p>
+          <!-- <p>Recent Projects accomplished, some of my work from the past year.</p> -->
+          <p>Here are a few projects I've worked on recently. Want to see more? <a href="mailto:mina.latif@live.com">Email Me</p></a>
         </div>
-
         <div class="row projects-container" data-aos="fade-up" data-aos-delay="200">
-
-          <div class="col-lg-4 col-md-6 projects-item filter-web">
-            <div class="projects-wrap">
-              <img src="assets/img/projects/rom.jpg" class="img-fluid" alt="">
-              <div class="projects-info">
-                <h4>Construction</h4>
-                <!-- <p>Web</p> -->
-                <div class="projects-links">
-                  <a href="assets/img/projects/rom.jpg" data-gall="projectsGallery" class="venobox" title="Construction Web"><i class="bx bx-plus"></i></a>
-                  <a href="project-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
+          <div class="col-lg-4 col-md-6 projects-item">
+            <div class="project-grid">
+              <div class="project-wrapper">
+                <a href="https://mdawood83.github.io/Romhein/" target="_blank">
+                  <img src="assets/img/projects/romhein.png" class="img-fluid" alt="">
+                  <i class="fas fa-eye prj"> Preview</i>
+                </a>
               </div>
+              <a href="https://mdawood83.github.io/Romhein/" target="_blank">
+                <p class="project-title">Romhein Construction Inc.</p>
+              </a>
             </div>
           </div>
-
-          <div class="col-lg-4 col-md-6 projects-item filter-web">
-            <div class="projects-wrap">
-              <img src="assets/img/projects/furniture.jpg" class="img-fluid" alt="">
-              <div class="projects-info">
-                <h4>Furniture</h4>
-                <!-- <p>Web</p> -->
-                <div class="projects-links">
-                  <a href="assets/img/projects/furniture.jpg" data-gall="projectsGallery" class="venobox" title="Furniture Web"><i class="bx bx-plus"></i></a>
-                  <a href="project-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
+          <div class="col-lg-4 col-md-6 projects-item">
+            <div class="project-grid">
+              <div class="project-wrapper">
+                <a href="https://mdawood83.github.io/FurnitureWebsite/" target="_blank">
+                  <img src="assets/img/projects/furniture.png" class="img-fluid" alt="">
+                  <i class="fas fa-eye prj"> Preview</i>
+                </a>
               </div>
+              <a href="https://mdawood83.github.io/FurnitureWebsite/" target="_blank">
+                <p class="project-title">MD HomeStyle</p>
+              </a>
             </div>
           </div>
-
-          <div class="col-lg-4 col-md-6 projects-item filter-app">
-            <div class="projects-wrap">
-              <img src="assets/img/projects/national.jpg" class="img-fluid" alt="">
-              <div class="projects-info">
-                <h4>Transportation</h4>
-                <!-- <p>App</p> -->
-                <div class="projects-links">
-                  <a href="assets/img/projects/national.jpg" data-gall="projectsGallery" class="venobox" title="Transportation Web"><i class="bx bx-plus"></i></a>
-                  <a href="project-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
+          <div class="col-lg-4 col-md-6 projects-item">
+            <div class="project-grid">
+              <div class="project-wrapper">
+                <a href="">
+                  <img src="assets/img/projects/transport.jpg" class="img-fluid" alt="">
+                  <i class="fas fa-eye prj"> Preview</i>
+                </a>
               </div>
+              <a href="">
+                <p class="project-title">MD Transportation (<strong>Under Construction</strong>)</p>
+              </a>
             </div>
           </div>
-
         </div>
-
       </div>
     </section>
-    <!-- End projects Section -->
-
-    <!-- ======= Contact Section ======= -->
+    <!-- Contact -->
     <section id="contact" class="contact">
       <div class="container" data-aos="fade-up">
-
         <div class="section-title">
           <h2>Contact Me</h2>
           <p>Let's get in touch!</p>
         </div>
-
         <div class="row" data-aos="fade-up" data-aos-delay="100">
-
           <div class="col-lg-6">
-
             <div class="row">
               <div class="col-md-12">
                 <div class="info-box">
                   <i class="bx bx-map"></i>
-                  <h3>Address</h3>
+                  <h3>Location</h3>
                   <p>Montreal, QC. CANADA</p>
                 </div>
               </div>
@@ -295,9 +325,8 @@
                 </div>
               </div>
             </div>
-
           </div>
-
+          <!-- Contact Form -->
           <div class="col-lg-6">
             <form name="contact" method="POST" data-netlify="true" class="myform">
               <div class="form-row">
@@ -326,96 +355,77 @@
                 <div class="error-message"></div>
                 <div class="sent-message">Your message has been sent. Thank you!</div>
               </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
+              <div class="text-center"><button type="submit">Message Me</button></div>
             </form>
           </div>
-
         </div>
-
       </div>
     </section>
-    <!-- End Contact Section -->
-
   </main>
-  <!-- End #main -->
-
-  <!-- ======= Footer ======= -->
+  <!-- Footer -->
   <footer id="footer">
-
     <div class="footer-top">
       <div class="container">
         <div class="row">
-
           <div class="col-lg-3 col-md-6 footer-info">
             <h3>Mina <span>Dawood</span></h3>
             <p>
               Montreal, QC. Canada <br><br>
-              <strong>Phone:</strong> +1 (514) 462-4302<br>
-              <strong>Email:</strong> mina.latif@live.com<br>
+              <i class="bx bx-mobile"></i><strong> Phone:</strong> <a href="tel:+15144624302">+1 514.462.4302</a><br>
+              <i class="bx bx-envelope"></i><strong> Email:</strong> <a href="mailto:mina.latif@live.com">mina.latif@live.com</a><br>
             </p>
-            <div class="social-links mt-3">
-              <!-- <a href="https://mobile.twitter.com/login" target="_blank" class="twitter"><i class="bx bxl-twitter"></i></a> -->
-              <!-- <a href="https://www.instagram.com/" target="_blank" class="instagram"><i class="bx bxl-instagram"></i></a> -->
-              <a href="https://www.facebook.com/" target="_blank" class="facebook"><i class="bx bxl-facebook"></i></a>
+            <!-- Social Media Links -->
+            <!-- <div class="social-links mt-3">
+              <a href="https://www.facebook.com/minadawood83/" target="_blank" class="facebook"><i class="bx bxl-facebook"></i></a>
               <a href="https://github.com/mdawood83?" target="_blank" class="Github"><i class="bx bxl-github"></i></a>
               <a href="https://www.linkedin.com/in/mina-dawood-3a8b7a81/" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+            </div> -->
+          </div>
+          <div class="col-lg-2 col-md-6 footer-links"></div>
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Quick Links</h4>
+            <ul>
+              <!-- <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="#header">Home</a></li> -->
+              <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="#about">About me</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="#skills">Skills</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="#projects">Projects</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Let's Connect</h4>
+            <div class="social-links mt-3">
+              <a href="https://www.facebook.com/minadawood83/" target="_blank" class="facebook"><i class="fab fa-facebook-f"></i></a>
+              <a href="https://github.com/mdawood83?" target="_blank" class="Github"><i class="fab fa-github"></i></a>
+              <a href="https://www.linkedin.com/in/mina-dawood-3a8b7a81/" target="_blank" class="linkedin"><i class="fab fa-linkedin-in"></i></a>
             </div>
           </div>
-
-          <div class="col-lg-2 col-md-6 footer-links">
-
-          </div>
-
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Links</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="#header">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="#about">About me</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="#projects">projects</a></li>
-              <!-- <li><i class="bx bx-chevron-right"></i> <a href="#contact">Terms of service</a></li> -->
-              <!-- <li><i class="bx bx-chevron-right"></i> <a href="#contact">Privacy policy</a></li> -->
-            </ul>
-          </div>
-
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Services</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="">Web Development</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="">Software Development</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="">Mobile Applications</a></li>
-            </ul>
-          </div>
-
         </div>
       </div>
     </div>
-
+    <!-- Copyright -->
     <div class="footer-bottom">
       <div class="container">
           <div class="copyright">
-            &copy; Copyright 2021 <strong><span>MD</span></strong>. All Rights Reserved
+            &copy; Copyright <script>document.write( new Date().getUTCFullYear() );</script> <strong><span><a href="index.html">MD</a></span></strong>. All Rights Reserved
           </div>
       </div>
     </div>
   </footer>
-  <!-- End Footer -->
 
   <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
 
-  <!-- JS Scripts -->
   <script src="libs/jquery/jquery.min.js"></script>
   <script src="libs/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="libs/jquery.easing/jquery.easing.min.js"></script>
-  <script src="libs/php-email-form/validate.js"></script>
   <script src="libs/owl.carousel/owl.carousel.min.js"></script>
   <script src="libs/waypoints/jquery.waypoints.min.js"></script>
   <script src="libs/counterup/counterup.min.js"></script>
-  <script src="libs/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="libs/venobox/venobox.min.js"></script>
-  <script src="libs/aos/aos.js"></script>
+  <script src="libs/isotope-layout/isotope.pkgd.min.js"></script>  
+  <script src="/node_modules/jquery/dist/jquery.js"></script>
+  <script src="/node_modules/venobox/venobox/venobox.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-  <!-- JS Link -->
   <script src="js/main.js"></script>
-
+  <script src="js/typeEffect.js"></script>
 </body>
 </html>
