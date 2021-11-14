@@ -28,7 +28,8 @@ h6 {
 }
 
 .typed-text {
-  color: #e03a3c;
+  color: #ffa631;
+  text-decoration: underline;
   /* font-weight: normal; */
 }
 
@@ -79,7 +80,7 @@ h6 {
 }
 
 #header {
-  background: #111;
+  /* background: #111; */
   transition: all 0.5s;
   z-index: 1;
   padding: 20px 0;
@@ -88,6 +89,7 @@ h6 {
 #header.header-scrolled {
   padding: 10px 0;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  background: rgba(0, 0, 0, 0.8);
   /* background: rgba(0, 0, 0, 0.048); */
 }
 
@@ -364,7 +366,7 @@ h6 {
 #landing {
   width: 100%;
   height: 100vh;
-  background: url('../assets/img/landing2.jpg') top center no-repeat;
+  background: url('../assets/img/landing0.jpg') top center no-repeat;
   background-size: cover;
   position: relative;
   padding-top: 82px;
@@ -592,13 +594,13 @@ section {
   background-color: #e03a3c !important;
 }
 
-.about .container {
+/* .about .container {
   position: relative;
   z-index: 10;
-}
+} */
 
 .about .content {
-  padding: 30px 30px 30px 0;
+  padding: 30px;
 }
 
 .about .content h3 {
@@ -666,9 +668,9 @@ section {
     text-align: center;
     display: block;
   }
-  /* .about .content img {
-    position: relative;
-  } */
+  .about .content img {
+    visibility: hidden;
+  }
 }
 
 .skills .progress {
@@ -818,10 +820,11 @@ section {
 }
 
 .about-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  display: flex;
+  /* grid-template-columns: repeat(2, 1fr); */
   /* gap: 5px; */
   justify-content: space-between;
+  gap: 10px;
   align-items: center;
 }
 
@@ -829,6 +832,19 @@ section {
   justify-self: center;
   width: 40%;
   border-radius: 10px;
+}
+
+@media (max-width: 760px) {
+  .about-grid {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 80%;
+  }
+  .about img {
+    position: absolute;
+  }
 }
 
 .card {
@@ -853,7 +869,7 @@ section {
   top: 60px;
   left: 0;
   right: 0;
-  transform: skewY(-3deg);
+  transform: skewY(-6deg);
 }
 
 .projects .projects-wrap .projects-info {
